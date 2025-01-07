@@ -79,7 +79,9 @@
 
 -- 1. Select all products available in the products table.
 
-SELECT * FROM products;
+SELECT * 
+FROM	
+	products;
 
 -- 2. List all store names and their respective cities.
 
@@ -94,7 +96,8 @@ FROM
 SELECT *
 FROM
 	sales
-WHERE order_date = '2023-01-01';
+WHERE
+	order_date = '2023-01-01';
 
 -- 4. Find the name and price of products in the 'Electronics' category.
 
@@ -108,7 +111,8 @@ WHERE
 
 -- 5. Count the total number of stores available in the stores table.
 
-SELECT COUNT(*) AS total_stores
+SELECT 
+	COUNT(*) AS total_stores
 FROM
 	stores;
 
