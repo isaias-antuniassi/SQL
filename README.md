@@ -13,7 +13,9 @@ The database consists of three interrelated tables:
 3. **Sales**: Tracks individual sales transactions, associating products sold with the store and date of sale.
 
 
-### Question Explored
+### Exploratory Data Analysis
+
+EDA involved exploring the sales data to answer key questions, such as:
 
 1. Select all products available in the products table.
 2. List all store names and their respective cities.
