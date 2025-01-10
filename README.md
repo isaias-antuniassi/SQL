@@ -69,3 +69,11 @@ GROUP BY
 	s.order_date, s.product_id, p.product_name
 	HAVING COUNT(DISTINCT s.store_id) > 1;
 ```
+
+### Some Results/Findings
+
+These are some summarize results of the analysis:
+- Products of category Electronics are with the highest sales and revenue.
+- The store S02 is the best-performing store in terms of quantity of products sold.
+- The city with the best results in terms of performance and sales is Galway.
+
